@@ -1,5 +1,7 @@
 # PowerGlue
 
+[![Build status](https://ci.appveyor.com/api/projects/status/ktncamll1gvsq8j5?svg=true)](https://ci.appveyor.com/project/brianaddicks/powerglue)
+
 ## Usage
 ```powershell
 # Install Module
