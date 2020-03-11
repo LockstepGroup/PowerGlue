@@ -22,6 +22,7 @@ Class ITGConfiguration {
     [datetime]$WarrantyExpireDate
     [string]$Contact
     [string]$Location
+    [int64]$Id
 
     #region Initiators
     ########################################################################
