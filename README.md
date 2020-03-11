@@ -18,6 +18,6 @@ $Organization = Get-ITGOrganization -Name 'Example.com'
 $ConfigurationStatus = Get-ITGConfigurationStatus
 $StatusId = ($ConfigurationStatus | Where-Object { $_.Name -eq 'Provisioning' }).Id
 
-# Retreive Configuratinos for Example.com with a status of 'Provisioning
+# Retreive Configuratinos for Example.com with a status of 'Provisioning'
 $Configuration = $Organization | Get-ITGConfiguration -StatusId $StatusId
 ```
