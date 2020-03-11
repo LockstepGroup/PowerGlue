@@ -1,4 +1,4 @@
-Class ITGfiguration {
+Class ITGConfiguration {
     [string]$Organization
     [string]$Name
     [string]$ConfigurationType
