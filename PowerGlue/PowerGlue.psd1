@@ -18,7 +18,7 @@ ModuleVersion = '0.0.1'
 # CompatiblePSEditions = @()
 
 # ID used to uniquely identify this module
-GUID = '3a41d762-d8d5-45e5-b2d8-2cf3bdae677a'
+GUID = '9ef0ee0c-6f8e-4296-90e2-aff8c7fbff70'
 
 # Author of this module
 Author = 'brian.addicks@lockstepgroup.com'
