@@ -12,7 +12,7 @@
     RootModule        = 'PowerGlue'
 
     # Version number of this module.
-    ModuleVersion     = '0.0.1'
+    ModuleVersion     = '0.0.2'
 
     # Supported PSEditions
     # CompatiblePSEditions = @()
@@ -131,5 +131,6 @@ Initial Release, mostly just didn't like the lack of effort that went into the o
     # DefaultCommandPrefix = ''
 
 }
+
 
 
