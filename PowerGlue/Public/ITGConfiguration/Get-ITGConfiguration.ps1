@@ -2,7 +2,10 @@ function Get-ITGConfiguration {
     [CmdletBinding()]
     Param (
         [Parameter(Mandatory = $False, ValueFromPipeline = $true)]
-        [ITGOrganization]$Organization
+        [ITGOrganization]$Organization,
+
+        [Parameter(Mandatory = $False)]
+        [int64]$StatusId
     )
 
     BEGIN {
@@ -15,8 +18,14 @@ function Get-ITGConfiguration {
         $QueryParams.UriPath = 'configurations'
         $QueryParams.Query = @{}
 
+        # Organization
         if ($Organization) {
             $QueryParams.Query.'organization_id' = $Organization.Id
+        }
+
+        # StatusId
+        if ($StatusId) {
+            $QueryParams.Query.'filter[configuration_status_id]' = $StatusId
         }
 
         $Query = Invoke-ITGApiQuery @QueryParams
