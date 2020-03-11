@@ -10,7 +10,7 @@ function Get-ITGConfiguration {
     }
 
     PROCESS {
-        $test = $itg.invokeApiQuery(@{'filter[name]' = 'Fulton*'})
+
     }
 
     END {
