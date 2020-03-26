@@ -7,7 +7,8 @@
 # Install Module
 Install-Module PowerGlue
 
-# Connect to IT Glue
+# Import Module and connect to IT Glue
+Import-Module PowerGlue
 $ApiKey = 'ITG.MYSECRETAPIKEY'
 Connect-ITGServer -ApiKey $ApiKey
 
