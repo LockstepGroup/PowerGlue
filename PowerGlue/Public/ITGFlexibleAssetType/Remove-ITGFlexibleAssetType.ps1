@@ -1,4 +1,4 @@
-function Remove-ITGFlexibleAssetType {
+<# function Remove-ITGFlexibleAssetType {
     [CmdletBinding()]
     Param (
     )
@@ -13,3 +13,4 @@ function Remove-ITGFlexibleAssetType {
     END {
     }
 }
+ #>

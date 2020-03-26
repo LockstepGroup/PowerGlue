@@ -1,4 +1,4 @@
-function Remove-ITGConfiguration {
+<# function Remove-ITGConfiguration {
     [CmdletBinding()]
     Param (
     )
@@ -13,3 +13,4 @@ function Remove-ITGConfiguration {
     END {
     }
 }
+ #>

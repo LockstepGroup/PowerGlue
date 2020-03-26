@@ -1,4 +1,4 @@
-function Set-ITGFlexibleAssetType {
+<# function Set-ITGFlexibleAssetType {
     [CmdletBinding()]
     Param (
     )
@@ -13,3 +13,4 @@ function Set-ITGFlexibleAssetType {
     END {
     }
 }
+ #>

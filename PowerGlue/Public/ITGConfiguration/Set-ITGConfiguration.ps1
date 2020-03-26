@@ -1,4 +1,4 @@
-function Set-ITGConfiguration {
+<# function Set-ITGConfiguration {
     [CmdletBinding()]
     Param (
     )
@@ -13,3 +13,4 @@ function Set-ITGConfiguration {
     END {
     }
 }
+ #>
